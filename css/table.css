@@ -1,0 +1,126 @@
+header{
+  background-image: url("https://i.imgur.com/3MPejTn.jpg");
+  background-color: #c70101;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+nav a{
+  display:inline-block;
+  background-color: #ffffff;
+  border-radius: 5px;
+  opacity: .5;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size:110%;
+  color:black;
+  margin: 0 3.5% 3% 3.5%;
+  padding: 2% 5%;
+  font-weight: 550;
+  transition-duration:.5s;
+  transition-timing-function:linear;
+  transition-delay:.25s;
+  
+  
+}
+
+
+.active{
+  background-color:#ffffff;
+  color:black;
+  opacity:1;
+}
+
+.anchor>a:hover{
+  background-image:linear-gradient(#ffffff 0%,#e33b3b 100%);
+  color:black;
+  opacity:1;
+  transform:scale(1.25);  
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+body{
+  margin:2%;
+  padding:10px;
+}
+
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  font-size: 250%;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+
+
+.number{
+  color: rgb(108,109,111);
+}
+
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 23px;
+  color: #000;
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #f86e6e, #ffa79a);
+  background: linear-gradient(to right, #f86e6e, #ffa79a);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+}
+
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
